@@ -1,3 +1,1 @@
-module.exports = (base, exponent) => {
-  return Math.pow(base, exponent);
-};
+module.exports = (base, exponent) => base ** exponent; 
